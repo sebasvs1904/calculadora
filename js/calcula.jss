@@ -149,13 +149,21 @@ function cot() {
          pantalla.innerHTML=x;
          xi=1; //reiniciar pantalla al pulsar otro número.
          }
-function ses() {
+function sec() {
          nx=Number(x);
          
          x=String(Math.asin(nx));		 
          pantalla.innerHTML=x;
          xi=1; //reiniciar pantalla al pulsar otro número.
          }
+         function c() {
+         nx=Number(x);
+         
+         x=String(Math.asin(nx));		 
+         pantalla.innerHTML=x;
+         xi=1; //reiniciar pantalla al pulsar otro número.
+         }
+         
 function e() {
          nx=Number(x);
          
