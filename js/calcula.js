@@ -51,6 +51,7 @@ function igualar() {
             x=sol; //guardamos la solución
             op="no"; //ya no hay operaciones pendientes
             xi=1; //se puede reiniciar la pantalla.
+            
             }
         }
       
@@ -91,7 +92,7 @@ function inve() {
          nx=(1/nx);
          x=String(nx);		 
          pantalla.innerHTML=x;
-         xi=1; //reiniciar pantalla al pulsar otro número.
+        xi=1 //reiniciar pantalla al pulsar otro número.
          }
 
 function retro(){ //Borrar sólo el último número escrito.
@@ -135,7 +136,7 @@ function tan() {
          pantalla.innerHTML=x;
          xi=1; //reiniciar pantalla al pulsar otro número.
          }
-function tan() {
+function cs() {
          nx=Number(x);
          
          x=String(Math.atan(nx));		 

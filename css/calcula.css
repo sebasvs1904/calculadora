@@ -2,15 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap');
 *{
     font-family: 'Comic Neue', cursive;
+    
 }
-.calculadora { border: 3px blue ridge; width: 600px;text-align: center;
+.calculadora { border: 3px blue ridge; width: 650px;text-align: center;
                background-color: darkgoldenrod; 
                 
+}
+.i{
+    color: darkgoldenrod
+}
+.x{
+    color: white;
 }
 
 /*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
 #textoPantalla { width: 500px; border: 2px black solid; text-align: right;
-                 position: relative; left: 30px;  padding: 5px 5px;
+                 position: relative; left: 30px;  padding: 5px 10px;
+                 background-color: white; 
+                 overflow: hidden;
+                
+
+}
+
+#textoPantalla2 { width: 100px; border: 2px blue solid; text-align: right;
+                 position: relative; left: 30px;  padding: 5px 10px;
+    
                  background-color: white; 
                  overflow: hidden;
                 
@@ -32,7 +48,9 @@
 .calculadora input.format{
     color: white;
     background-color: darkblue;
-    border-radius: 10px;
-    height: 30px;
+    border-radius: 20px;
+    height: 40px;
+    
     border: 0px;
+    font-size: 20px;
 }
