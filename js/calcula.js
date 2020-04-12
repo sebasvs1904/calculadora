@@ -135,8 +135,8 @@ function tan() {
          pantalla.innerHTML=x;
          xi=1; //reiniciar pantalla al pulsar otro número.
          }
-function tan() {
-         nx=Number(x);
+function cs() {
+        nx=Number(x);
          
          x=String(Math.atan(nx));		 
          pantalla.innerHTML=x;
